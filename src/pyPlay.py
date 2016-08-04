@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 
 # basic use of itertools to make and shuffle a deck of cards
+print ("Playing with a deck of cards...")
 deck = list(itertools.product(['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten',
                                'Jack', 'Queen', 'King'],
                               ['Spades', 'Hearts', 'Clubs', 'Diamonds']))
@@ -17,6 +18,7 @@ for i in range(5):
 
 
 # playing around with pandas
+print ("\n\n\nPlaying with pandas...")
 data = {
     'Name': ["John", "Paul", "George", "Ringo"],
     'Location': ["NY", "LN", "HK", "TK"],
